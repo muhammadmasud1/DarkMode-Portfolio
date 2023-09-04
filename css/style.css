@@ -784,3 +784,158 @@ header .close-icons {
 	color: #fff;
 	background: rgba(255,255,255,0);
 }
+
+
+
+
+@media (max-width:768px) {
+    #card-design {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        align-items: start;
+        justify-content: start;
+        place-self: start;
+        left: 10px;
+       
+    }
+    .img-wrapper img {
+      align-items: start;
+      padding: 20px;
+    }
+    .img-wrapper{
+        place-items: flex-start;
+    }
+}
+@media (max-width:768px) {
+    #card-design {
+        left: 15px; 
+    }
+    
+   
+}
+@media (max-width:576px) {
+    #card-design {
+        left: 15px;
+       
+    }
+  
+
+}
+@media (max-width:450px) {
+    #card-design {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        left: 45px;
+    }
+}
+
+/* ================service design================== */
+
+.ourService{
+  padding-top: 100px;  
+  text-align: center;
+  margin-top: 100px;
+  color: #0ef;
+
+}
+.ourService h1{
+    font-size: 35px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+:root {
+    --main-color: cyan;
+  }
+
+  .container {
+   width: 90%;
+   height: auto;
+   margin: 0 auto;
+   display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  .container h2 {
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 60px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+  }
+  .container h2::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    color: #000;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    
+  }
+  .row .service {
+    padding: 40px 20px;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #0ef;
+    border-radius: 5px;
+  }
+ 
+ 
+  .row .service:hover{
+    color: #000;
+    background-color: var(--main-color);
+    transform: scale(1.05);
+  }
+  .row .service i {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 40px;
+    transition: 0.5s;
+   
+  }
+ 
+  .row .service:hover i {
+    color: #000;
+  }
+  .row .service h3 {
+    font-weight: 600;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 20px;
+  }
+ .row .service p{
+    color: #fff;
+ }
+ .row .service h3{
+    color: #fff;
+ }
+ .row .service i{
+    color: #fff;
+ }
+ .row .service:hover{
+    color: #fff;
+
+ }
+ .row .service:hover{
+    background: #007ced;
+ }
