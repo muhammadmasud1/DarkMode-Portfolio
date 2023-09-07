@@ -258,6 +258,66 @@ header .close-icons {
             font-size: 26px;
          
 }
+
+
+  
+  .h-animate .text{
+  
+      position: relative;
+  
+      color: #00C9F3;
+  
+      font-size: 30px;
+  
+      font-weight: 600;
+  
+  }
+  
+  .h-animate .text.first-text{
+  
+      color: #FFF;
+  
+  }
+  
+  .text.sec-text:before{
+  
+      content: "";
+  
+      position: absolute;
+  
+      top: 0;
+  
+      left: 0;
+  
+      height: 100%;
+  
+      width: 100%;
+  
+      background-color: #1E1C27;
+  
+      border-left: 2px solid #00C9F3;
+  
+      animation: animate 4s steps(12) infinite;
+  
+  }
+  
+  @keyframes animate{
+  
+      40%, 60%{
+  
+          left: calc(100% + 4px);
+  
+      }
+  
+      100%{
+  
+          left: 0%;
+  
+      }
+  
+  }
+  
+  
 .container .home-content h1{
             color: rgba(17, 194, 207, 1);
             margin-bottom: 20px;
